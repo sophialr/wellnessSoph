@@ -22,72 +22,7 @@
   <link href="css/clean-blog.min.css" rel="stylesheet">
 
 </head>
-<style>
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-}
-.button1 {
-  background-color: white;
-color: black;
-border: 2px solid #0c58ed;
 
-}
-.button1:hover {
-  background-color: #0c58ed;
-  color: white;
-}
-.button2 {
-  background-color: white;
-color: black;
-border: 2px solid #42f5aa;
-font-size: 10px;
-}
-.button2:hover {
-  background-color: #42f5aa;
-  color: white;
-}
-
-
-.button3 {
-  background-color: white;
-color: black;
-border: 2px solid #f0ed4a;
-}
-.button3:hover {
-  background-color: #f0ed4a;
-  color: white;
-}
-.button4 {
-  background-color: white;
-color: black;
-border: 2px solid #f0afb2;
-}
-.button4:hover {
-  background-color: #f0afb2;
-  color: white;
-}
-
-.button5 {
-  background-color: white;
-color: black;
-border: 2px solid #afc5f0;
-}
-.button5:hover {
-  background-color:#afc5f0;
-  color: white;
-}
-
-</style>
 
 <body>
 
@@ -107,9 +42,18 @@ border: 2px solid #afc5f0;
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="recs.html">Reccomendations</a>
-          </li>
+          <div class="btn-group">
+            <button type="button" class="btn btn-info btn-small dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recs
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="recipes.html">Recipes</a>
+              <a class="dropdown-item" href="workouts.html">Workouts</a>
+              <a class="dropdown-item" href="environ.html">Environmental Tips</a>
+              <a class="dropdown-item" href="pod.html">Podcasts</a>
+              <a class="dropdown-item" href="books.html">Books</a>
+            </div>
+          </div>
           <li class="nav-item">
             <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
@@ -117,8 +61,7 @@ border: 2px solid #afc5f0;
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
 
-      <li class="nav-item">
-            <div class="dropdown">
+            <!--<div class="dropdown">
     <button class="btn btn-info btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recs
     <span class="sr-only"></span></button>
     <ul class="dropdown-menu">
@@ -127,9 +70,8 @@ border: 2px solid #afc5f0;
       <a href="recipes.html">  <button class="button button2"><li>Environmental Tips</li></button></a>
       <a href="recipes.html">  <button class="button button4"><li>Podcasts</li></button></a>
       <a href="recipes.html">  <button class="button button5"><li>Books</li></button></a>
-    </ul>
-  </div>
-</div>
+    </ul> -->
+    <!-- Example single danger button -->
 
 
         </ul>
