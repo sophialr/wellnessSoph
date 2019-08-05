@@ -100,6 +100,9 @@ h1 {
         </div>
       </div>
     </div>
+    <style>
+    #more {display: none;}
+    </style>
   </header>
 
   <!-- Post Content -->
@@ -108,7 +111,7 @@ h1 {
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul>
-          <li><a href="https://skinnyms.com/quinoa-meatless-meatballs/">Quinoa Balls! (Veg)</a></li>
+          <li><a href="https://skinnyms.com/quinoa-meatless-meatballs/">Quinoa Balls! (Veg) linked here</a></li>
           <span class="caption text-muted">Rec by Emily Boyland</span>
           <li> Sandwich Idea! Sandwich Thin with hummus, avocado, mango salsa sometimes, salami, spinach, fresh mozzarella or grated parmesan</li>
           <span class="caption text-muted">Rec by Emily Boyland</span>
@@ -117,7 +120,81 @@ h1 {
           <li> Rice cake, 1/2 avocado, one or two fried eggs, and everything but the bagel seasoning (GF, Diary Free)</li>
           <li> TOASTS! piece of toast, peanut butter, half banana, cinnamon OR piece of toast, almond butter, raspberries, agave, and chia seed. I usually use a rice cake instead of toast. </li>
 
+          <li> Find out about Annie Ma's popular smoothie list after working at a smoothie place in California!<span id="dots">...</span><span id="more">
+            <p> POPEYE PISTACHIO 💚</p>
+            <ul style="list-style-type:circle;">
+              <li>8 oz almond milk</li>
+            <li>handful of spinach</li>
+            <li>handful of kale (double spinach if you dont have kale & vise versa)</li>
+            <li>scoop of pistachio butter OR half handful of pistachios</li>
+              <li>1 frozen banana</li>
+              <li>1 date</li>
+            <li>drizzle of coconut nectar (i use date nectar from whole foods instead of both dates and coconut nectar, both work fine)</li>
+            </ul>
+
+            <p> BANANA ALMOND🍌(super good as a protein shake if you add a scoop of protein powder) </p>
+	         <ul style="list-style-type:circle;">
+             <li>8 oz almond milk</li>
+	         <li>1.5 ish frozen banana (depends how thick you want it) </li>
+	         <li>scoop of almond butter </li>
+           <li>1 date</li>
+	         <li>drizzle of coconut nectar</li>
+	         <li>optional: protein powder, chocolate protein powder tastes really good w this imo</li>
+           </ul>
+
+           <p> ACAI SMOOTHIE💜 </p>
+           <ul style="list-style-type:circle;">
+           <li>8 oz almond milk</li>
+         <li>scoop (~half cup) of frozen blueberries (i normally just used mixed frozen berries)</li>
+	        <li>1 packet of frozen acai </li>
+	         <li>1 fresh banana</li>
+	          <li>I make this a lot without the acai, just add more berries, spinach goes good with this too! </li>
+          </ul>
+
+          <p>CARIBBEAN MORNING☀️</p>
+          <ul style="list-style-type:circle;">
+	         <li>8 oz coconut milk </li>
+	          <li>scoop of frozen mango</li>
+	           <li>scoop of frozen pineapple</li>
+	            <li>1 fresh banana</li>
+	             <li>optional: coconut nectar/honey (any type of sweetener)</li>
+	              <li>place i worked at was vegan so we didnt use honey but i use it at home instead of coconut nectar bc its cheaper and easier to find</li>
+	               <li>spinach & kale goes good in this too if you want a green smoothie</li>
+                   </ul>
+
+
+            <p>STRAWBERRY BLISS🍓</p>
+            <ul style="list-style-type:circle;">
+            <li>8 oz almond milk </li>
+            <li>~5 frozen strawberries</li>
+            <li>1 fresh banana</li>
+            <li>1 date </li>
+            <li>drizzle of coconut nectar</li>
+            <li>we had a raspberry smoothie that was the exact same as this but just with frozen raspberries instead of strawberries </li>
+          </ul>
+
+
+          </span> </li>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+            <script>
+            function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                  dots.style.display = "inline";
+                  btnText.innerHTML = "Read more";
+                  moreText.style.display = "none";
+                } else {
+                  dots.style.display = "none";
+                  btnText.innerHTML = "Read less";
+                  moreText.style.display = "inline";
+                }
+              }
+            </script>
 </ul>
+
 
 <p> Reach out to share your reccomendations!</p>
         </div>
@@ -158,7 +235,7 @@ h1 {
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Sophs Wellness 2019</p>
+          <p class="copyright text-muted">Copyright &copy; Soph's Wellness 2019</p>
         </div>
       </div>
     </div>
